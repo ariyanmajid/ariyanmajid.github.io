@@ -7,23 +7,56 @@
 <style>
     body {
         display: flex;
+        flex-direction: column; /* Align content in a column */
         justify-content: center;
         align-items: center;
         height: 100vh;
         margin: 0;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg');
+        background-size: cover; /* Cover the entire background */
+        background-repeat: no-repeat; /* No repeating the background */
+        background-position: center; /* Center the background */
+    }
+    .container {
+        padding: 20px;
+        border: 2px solid orange; /* Orange border around the container */
+        border-radius: 10px; /* Rounded corners for the container */
+        background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    }
+    .title {
+        font-size: 72px; /* Increased font size */
+        margin-bottom: 20px; /* Added margin below the title */
+        color: orange; /* Set color to orange */
+        font-weight: bold; /* Make the text thicker */
     }
     .content {
         text-align: center;
+        font-size: 20px; /* Font size for the content */
+        color: black; /* Set color to black */
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); /* Text shadow effect */
+    }
+    .additional-text {
+        margin-top: 20px; /* Added margin above the additional text */
+        font-size: 24px; /* Font size for the additional text */
+        font-family: 'Arial', sans-serif; /* Change font family */
+        font-weight: bold; /* Make the text thicker */
+        color: orange; /* Set color to orange */
+        line-height: 1.6; /* Adjust line height for better readability */
     }
 </style>
 </head>
 <body>
 
-<div class="content">
-    <h1>Main Strategy</h1>
-    <p>1. Zeig, dass Jesus Muslim war (Weil Christen wollen Jesus folgen)</p>
-    <p>Beweise aus der Bibel: 1. Jesus hat mit dem Gesicht auf den Boden gebetet? Zu wem? Zu sich selbst oder zu Gott? (Matthäus 26:39)</p>
+<div class="title">Christentum</div> <!-- Sentence above the frame -->
+
+<div class="container">
+    <div class="content">
+        <h1>Zeig, dass Jesus Muslim war (Weil Christen Jesus folgen wollen)</h1>
+    </div>
 </div>
+
+<p class="additional-text">Beweise aus der Bibel: 1. Jesus hat mit dem Gesicht auf den Boden gebetet (Matthäus 26:39). Zu wem? Zu sich selbst oder zu Gott?<br>
+In der Bibel ist Alkohol verboten (Sprüche 20, 1)</p>
 
 </body>
 </html>
