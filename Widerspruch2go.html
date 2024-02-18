@@ -34,6 +34,13 @@
         font-size: 24px;
         margin: 0 10px; /* Increase the margin between circles */
     }
+    .circle a {
+        color: white;
+        text-decoration: none;
+    }
+    .circle a:hover {
+        text-decoration: underline;
+    }
 </style>
 </head>
 <body>
@@ -41,13 +48,18 @@
 <div class="title">Für deine Arbeit</div> <!-- Sentence above the circles -->
 
 <div class="circle-container">
-    <div class="circle">Christentum</div> <!-- Text in the first circle -->
-    <div class="circle">Judentum</div> <!-- Text in the second circle -->
-    <div class="circle">Buddhism</div> <!-- Text in the third circle -->
-    <div class="circle">Hinduism</div> <!-- Text in the fourth circle -->
-    <div class="circle">Atheism</div> <!-- Text in the fifth circle -->
+    <div class="circle"><a href="#" onclick="showText('Main Strategy', '1. Zeig, dass Jesus Muslim war (Weil Christen wollen Jesus folgen)')">Christentum</a></div>
+    <div class="circle"><a href="#" onclick="showText('Title 2', 'Text 2')">Judentum</a></div>
+    <div class="circle"><a href="#" onclick="showText('Title 3', 'Text 3')">Buddhism</a></div>
+    <div class="circle"><a href="#" onclick="showText('Title 4', 'Text 4')">Hinduism</a></div>
+    <div class="circle"><a href="#" onclick="showText('Title 5', 'Text 5')">Atheism</a></div>
 </div>
+
+<script>
+function showText(title, text) {
+    alert(title + "\n\n" + text);
+}
+</script>
 
 </body>
 </html>
-
