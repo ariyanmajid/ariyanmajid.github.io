@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Five Circles</title>
+<style>
+    body {
+        display: flex;
+        flex-direction: column; /* Align content in a column */
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .title {
+        font-size: 36px; /* Increased font size */
+        margin-bottom: 20px; /* Added margin below the title */
+    }
+    .circle-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .circle {
+        width: 250px; /* Increased width */
+        height: 250px; /* Increased height */
+        background-color: orange; /* Changed background color to orange */
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 24px;
+        margin: 0 10px; /* Increase the margin between circles */
+    }
+    .circle a {
+        color: white;
+        text-decoration: none;
+    }
+    .circle a:hover {
+        text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+
+<div class="title">Für deine Arbeit</div> <!-- Sentence above the circles -->
+
+<div class="circle-container">
+    <div class="circle"><a href="main_strategy.html">Christentum</a></div>
+    <div class="circle"><a href="judaism.html">Judentum</a></div>
+    <div class="circle"><a href="buddhism.html">Buddhism</a></div>
+    <div class="circle"><a href="hinduism.html">Hinduism</a></div>
+    <div class="circle"><a href="atheism.html">Atheism</a></div>
+</div>
+
+</body>
+</html>
