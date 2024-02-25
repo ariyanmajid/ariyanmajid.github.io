@@ -1,6 +1,30 @@
 <!DOCTYPE html lang="en">
 <head>
 <title>Nothing said - many words</title>
+
+<style>
+	* {
+		background-color: #333;
+	}
+
+	.end span{
+		background-color: black;
+	}
+	
+	.Text2 {
+		font-size: 3px;
+	}
+	
+	.headline3 {
+		font-size: 100px;
+		margin-left: -55px;
+	}
+	
+	.dog:hover {
+		display:none;
+	}
+	
+</style>
 </head>
 <body>
 <header>
