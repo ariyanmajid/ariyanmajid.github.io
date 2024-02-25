@@ -1,11 +1,9 @@
-<!DOCTYPE html>
 <html>
 <head>
 <title>Nothing said - many words</title>
-
 </head>
-<body>
 
+<body>
 
 <style>
 	* {
@@ -49,7 +47,7 @@
 <div class="start">
 	<h2 class="headline main-headline" id="First">Welcome</h2>
 	<div class="image-text-box">
-		<img src="https://www.creativefabrica.com/wp-content/uploads/2022/05/11/1652275957/Cartoon-Corgi-Dog-Running-580x386.jpg" class="dog" alt>
+		<img src="https://www.creativefabrica.com/wp-content/uploads/2022/05/11/1652275957/Cartoon-Corgi-Dog-Running-580x386.jpg" class="dog">
 		<p class="Start-Text">
 			Welcome to the void of linguistic randomness, where words dance without meaning and sentences meander aimlessly through the digital ether. 
 			Here, on this blank canvas of cyberspace, you'll find a sanctuary of nonsensical prose and empty rhetoric. 
@@ -132,5 +130,6 @@
   <input type="text" value="cEna"><br><br>
   <input type="submit" value="end" label="hallo" name="eingabefeld">
 </form> 
+
 </body>
 </html>
