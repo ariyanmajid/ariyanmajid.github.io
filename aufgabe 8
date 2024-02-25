@@ -1,9 +1,11 @@
-<html>
+<!DOCTYPE html lang="en">
 <head>
-<title>Nothing said - many words</title>
-</head>
 
+</head>
 <body>
+<header>
+	<title>Nothing said - many words</title>
+</header>
 
 <style>
 	* {
@@ -131,5 +133,5 @@
   <input type="submit" value="end" label="hallo" name="eingabefeld">
 </form> 
 
-</body>
 </html>
+</body>
